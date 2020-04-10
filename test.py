@@ -14,7 +14,7 @@ actual_area = 130 * (0.070 * 0.021 * np.pi + 2 * np.pi * 0.0105**2) #m2
 
 # heat transfer coefficient
 # randomly assigned by hand
-h = 50 #w/K/m2
+h = 10 #w/K/m2
 
 # centigrade
 tout = outside_temp = 25
@@ -26,7 +26,7 @@ h_sp = 900
 m = 9.2
 
 # test currents
-currents = [5,10,20,40,50,60]
+currents = [5,10,20,30,40,50,60]
 
 # pack resistance
 r = 0.03 * 13 / 10
